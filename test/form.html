@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit</title>
+</head>
+
+<body>
+    <form action="http://minisend-api.test/api/v1/emails" method="POST" enctype="multipart/form-data">
+        <input type="text" name="from['name']" />
+        <input type="text" name="from['email']" />
+        <input type="text" name="to[0]['name']" />
+        <input type="text" name="to[0]['email']" />
+        <input type="text" name="to[1]['name']" />
+        <input type="text" name="to[1]['email']" />
+        <input type="text" name="subject" />
+        <input type="text" name="html_content" />
+        <input type="text" name="text_content" />
+        <input type="file" name="attachments[0]" />
+        <input type="file" name="attachments[1]" />
+        <input type="file" name="attachments[2]" />
+        <button type="submit" value="Submit" />
+    </form>
+</body>
+
+</html>

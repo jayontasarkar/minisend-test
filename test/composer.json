@@ -1,0 +1,12 @@
+{
+    "name": "jayonta/test",
+    "authors": [
+        {
+            "name": "Jayonta Sarkar",
+            "email": "jayontasarkar025@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.3"
+    }
+}
